@@ -1,6 +1,6 @@
 import { CalendarProps } from 'react-calendar';
 
-declare module 'react-date-picker' {
+declare module '@osdiab/react-date-picker' {
   export default function DatePicker(props: DatePickerProps): JSX.Element;
 
   export interface DatePickerProps extends CalendarProps {
