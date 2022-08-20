@@ -1674,6 +1674,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@osdiab/react-date-picker@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@osdiab/react-date-picker@workspace:."
+  dependencies:
+    "@babel/cli": ^7.15.0
+    "@babel/core": ^7.15.0
+    "@babel/preset-env": ^7.15.0
+    "@babel/preset-react": ^7.14.0
+    "@types/react-calendar": ^3.0.0
+    "@wojtekmaj/date-utils": ^1.0.3
+    "@wojtekmaj/enzyme-adapter-react-17": ^0.6.0
+    enzyme: ^3.10.0
+    eslint: ^8.5.0
+    eslint-config-wojtekmaj: ^0.6.5
+    get-user-locale: ^1.2.0
+    husky: ^8.0.0
+    jest: ^27.0.0
+    less: ^4.0.0
+    make-event-props: ^1.1.0
+    merge-class-names: ^1.1.1
+    merge-refs: ^1.0.0
+    prettier: ^2.5.0
+    pretty-quick: ^3.1.0
+    prop-types: ^15.6.0
+    react: ^17.0.0
+    react-calendar: ^3.7.0
+    react-dom: ^17.0.0
+    react-fit: ^1.4.0
+    rimraf: ^3.0.0
+    update-input-width: ^1.2.2
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  languageName: unknown
+  linkType: soft
+
 "@sinonjs/commons@npm:^1.7.0":
   version: 1.8.3
   resolution: "@sinonjs/commons@npm:1.8.3"
@@ -5984,42 +6020,6 @@ __metadata:
   checksum: 368084515bdbc59dddf1a0e367c6bb49e9b9efdc1d01343afeeb412feb52d89b88ac6b09378433cdb3716557ff2cf56751f11183ecd99a5df2a5c48b1691e33d
   languageName: node
   linkType: hard
-
-"react-date-picker@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-date-picker@workspace:."
-  dependencies:
-    "@babel/cli": ^7.15.0
-    "@babel/core": ^7.15.0
-    "@babel/preset-env": ^7.15.0
-    "@babel/preset-react": ^7.14.0
-    "@types/react-calendar": ^3.0.0
-    "@wojtekmaj/date-utils": ^1.0.3
-    "@wojtekmaj/enzyme-adapter-react-17": ^0.6.0
-    enzyme: ^3.10.0
-    eslint: ^8.5.0
-    eslint-config-wojtekmaj: ^0.6.5
-    get-user-locale: ^1.2.0
-    husky: ^8.0.0
-    jest: ^27.0.0
-    less: ^4.0.0
-    make-event-props: ^1.1.0
-    merge-class-names: ^1.1.1
-    merge-refs: ^1.0.0
-    prettier: ^2.5.0
-    pretty-quick: ^3.1.0
-    prop-types: ^15.6.0
-    react: ^17.0.0
-    react-calendar: ^3.7.0
-    react-dom: ^17.0.0
-    react-fit: ^1.4.0
-    rimraf: ^3.0.0
-    update-input-width: ^1.2.2
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  languageName: unknown
-  linkType: soft
 
 "react-dom@npm:^17.0.0":
   version: 17.0.2
